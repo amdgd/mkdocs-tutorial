@@ -1,4 +1,4 @@
-# mkdocs-tutorial
+# MkDocs Tutorial 
 Installing and Theming using MkDocs SSG
 
 # Overview

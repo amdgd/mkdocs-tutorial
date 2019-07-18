@@ -41,31 +41,7 @@ $ mkdocs new mkdocs-tutorial
 $ cd mkdocs-tutorial 
 ```
 
-
-
 `mkdocs.yml`, and a folder named `docs` that will contain your documentation source files. Right now the `docs` folder just contains a single documentation page, named `index.md`.
-
-MkDocs comes with a built-in dev-server that lets you preview your documentation as you work on it. Make sure you're in the same directory as the `mkdocs.yml` configuration file, and then start the server by running the `mkdocs serve` command:
-
-
-
-```shell
-$ mkdocs serve
->
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-[I 190717 23:25:25 server:296] Serving on http://127.0.0.1:8000
-[I 190717 23:25:25 handlers:62] Start watching changes
-[I 190717 23:25:25 handlers:64] Start detecting changes
-```
-
-Open up `http://127.0.0.1:8000/` in your browser, and you'll see the default home page being displayed:
-
-
-
-![The MkDocs live server](img/screenshot-20190717233248757.png)
-
-
 
 ## Commands
 
