@@ -6,8 +6,6 @@ description: A brief tutorial to get your started with MkDocs.
 status: completed
 ---
 
-
-
 # Welcome to MkDocs
 
 ## Installation

@@ -1,45 +1,49 @@
-site_name: Mkdoc Tutorials by AnkitM
-site_description: A book to learn MkDocs
-site_author: Ankit M
-repo_url: https://github.com/ankitind/mkdocs-tutorial
+site_name: MkDocs
+site_url: https://www.mkdocs.org
+site_description: Project documentation with Markdown.
+site_author: MkDocs Team
 
-nav:
-    - Getting Started: getting-started.md
-    - Creating Content: creating-content.md 
-    - Styling Site: styling-site.md
-    - Configuration: configuration.md
-    - <br />markdown-cheatsheet: markdown-cheatsheet.md
-    - yaml-cheatsheet: yaml-cheatsheet.md
-    - github-pages: github-pages.md
+repo_url: https://github.com/mkdocs/mkdocs/
+edit_uri: ""
 
 theme:
-    name: material
-    favicon: img/favicon.ico
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
 
-  
+nav:
+    - Introduction: index.md
+    - Getting Started: getting-started.md
+    - Deep Dive:
+        - Creating Content: creating-content.md 
+        - Styling Site: styling-site.md
+        - Configuration: configuration.md
+        - Extensions & Plugins: extensions-and-plugins.md
+        - Custom Theme: custom-theme.md
+        - Deployment: deployment.md
+        - Checklist: checklist.md
+    - Cheatsheets:
+        - Markdown: markdown-cheatsheet.md
+        - YAML: yaml-cheatsheet.md
+        - Github Pages: github-pages.md
+        - Jinja 2 : jinja2-cheatsheet.md
 
-# theme: 
-#     name: material
-#     logo:
-#         icon: star
-#     favicon: img/favicon.ico
-#     language: en
-#     palette:
-#         primary: royalblue
-#         accent: yellow
-#     font:
-#         text: Roboto
-#         code: Roboto Mono
-#     feature:
-#         tabs: true
+extra_css:
+    - css/extra.css
 
 markdown_extensions:
-    - codehilite
-    - markdown_include.include
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    - mdx_gh_links:
+        user: mkdocs
+        repo: mkdocs
 
+copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
-
-# extra_css:
-#     - extra_css.css
-
-use_directory_urls: true
+plugins:
+    - search

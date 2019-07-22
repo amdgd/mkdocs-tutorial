@@ -5,9 +5,32 @@ date: 2019-07-18
 status: draft
 ---
 
-
-
 # Getting Started
+
+### Project Layout
+
+```python
+mkdocs.yml                     # Configuration file
+.gitignore                     # exclude site/ 
+docs/
+    CNAME                      # Optional custom domain name
+    assets/images/favicon.ico  # favicon file
+    images/owls.png            # logo file
+    index.md                   # Website homepage
+    ...                        # Markdown pages, images and other files
+site/                          # Generated website (not included in repo)
+```
+
+
+
+### MkDocs Commands
+
+- `mkdocs new [dir-name]` - Create a new project
+- `mkdocs serve` - Start the live-reloading docs server
+- `mkdocs build` - Build the documentation site
+- `mkdocs help` - Print this help message
+
+
 
 ### Dev Server
 
@@ -225,16 +248,17 @@ theme: readthedocs
 
 - Any pyMdown extensions
 
-  ```
-  pip install pymdown-extensions
-  ```
+```
+pip install pymdown-extensions
+```
 
-- http://facelessuser.github.io/pymdown-extensions/
+http://facelessuser.github.io/pymdown-extensions/
 
-  ```
-  site_name: Mkdocs overview
-  pages:
+```shell
+site_name: Mkdocs overview
+pages:
     - Home: 'README.md'
-  markdown_extensions:
+markdown_extensions:
     - pymdownx.superfences
-  ```
+```
+

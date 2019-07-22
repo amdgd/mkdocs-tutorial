@@ -5,8 +5,6 @@ date: 2019-07-18
 status: draft
 ---
 
-
-
 # Markdown Cheatsheet
 
 ## Basic Elements

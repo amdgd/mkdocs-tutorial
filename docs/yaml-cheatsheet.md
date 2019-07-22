@@ -5,8 +5,6 @@ date: 2019-07-18
 status: draft
 ---
 
-
-
 # YAML CheatSheet
 
 **YAML** ("**YAML** Ain't Markup Language") is a human-readable data-serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored 

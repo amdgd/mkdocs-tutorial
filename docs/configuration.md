@@ -5,11 +5,7 @@ date: 2019-07-18
 status: draft
 ---
 
-
-
 # Configuration
-
-
 
 ### use_directory_urls
 
@@ -50,6 +46,12 @@ Allows a custom default to be set without the need to pass it through the `--dev
 ```yaml
 # Required Setting
 site_name: Marshmallow Generator
+
+# Docs Directory
+docs_dir: docs
+
+# site Build Directory
+site_dir: site
 
 # Set the canonical URL of the site. 
 # This will add a link tag with the canonical URL to the generated HTML header.

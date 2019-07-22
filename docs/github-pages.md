@@ -6,36 +6,28 @@ status: draft
 ---
 
 
-
 # Github Pages
 
+
 - Ability to host any static files in a github repository.
-
 - Similar to S3 but free
-
 - Several Options:
-
 - Use `gh-pages` branch
-
 - Use `master` branch
-
 - Use `docs` directory on `master` branch
-
 - URL format is:
 
-  ```
-  https://<username or organization>.github.io/<project name>
-  ```
+
+`https://<username or organization>.github.io/<project name>`
 
 - Allowed to have custom domain easily - just point your DNS
-
 - Can put stuff at
 
-  ```
-  https://<username or organization>.github.io/
-  ```
 
-  by creating a project named after the organization or user.
+`https://<username or organization>.github.io/`
+
+
+by creating a project named after the organization or user.
 
 
 
