@@ -15,8 +15,8 @@ theme:
 
 nav:
     - Introduction: index.md
-    - Getting Started: getting-started.md
     - Deep Dive:
+        - Getting Started: getting-started.md
         - Creating Content: creating-content.md 
         - Styling Site: styling-site.md
         - Configuration: configuration.md
