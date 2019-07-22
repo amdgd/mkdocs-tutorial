@@ -50,7 +50,7 @@ Open up `http://127.0.0.1:8000/` in your browser, and you'll see the default hom
 
 
 
-![The MkDocs live server](img/screenshot-20190717233248757.png)
+![The MkDocs live server](../img/screenshot-20190717233248757.png)
 
 
 
@@ -60,7 +60,7 @@ The setup is completely done in a `mkdocs.yml` file within your project's root d
 
 In the main folder, open the configuration file: `mkdocs.yml` to make few changes.
 
-It's a YAML file. For a one minute tutorial, check this  [YML Cheatsheet](yaml-cheatsheet.md) 
+It's a YAML file. For a one minute tutorial, check this  [YML Cheatsheet](../cheatsheets/yaml-cheatsheet.md) 
 
 ```yaml
 site: Your Site name

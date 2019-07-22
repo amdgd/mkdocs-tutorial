@@ -9,9 +9,6 @@ MarkupSafe==1.1.1
 material==0.1
 mdx-gh-links==0.2
 mkdocs==1.0.4
-mkdocs-cinder==0.17.0
-mkdocs-gitbook==0.0.1
-mkdocs-material==4.4.0
 mkdocs-minify-plugin==0.2.1
 Pygments==2.4.2
 pymdown-extensions==6.0

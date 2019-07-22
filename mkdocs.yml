@@ -6,32 +6,34 @@ site_author: MkDocs Team
 repo_url: https://github.com/mkdocs/mkdocs/
 edit_uri: ""
 
+# theme:
+#     name: mkdocs
+#     highlightjs: true
+#     hljs_languages:
+#         - yaml
+#         - django
+
 theme:
-    name: mkdocs
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - django
+    name: null
+    custom_dir: 'custom_theme/'
 
 nav:
     - Introduction: index.md
     - Deep Dive:
-        - Getting Started: getting-started.md
-        - Creating Content: creating-content.md 
-        - Styling Site: styling-site.md
-        - Configuration: configuration.md
-        - Extensions & Plugins: extensions-and-plugins.md
-        - Custom Theme: custom-theme.md
-        - Deployment: deployment.md
-        - Checklist: checklist.md
+        - Getting Started: deep-dive/getting-started.md
+        - Creating Content: deep-dive/creating-content.md 
+        - Styling Site: deep-dive/styling-site.md
+        - Configuration: deep-dive/configuration.md
+        - Extensions & Plugins: deep-dive/extensions-and-plugins.md
+        - Custom Theme: deep-dive/custom-theme.md
+        - Deployment: deep-dive/deployment.md
+        - Checklist: deep-dive/checklist.md
     - Cheatsheets:
-        - Markdown: markdown-cheatsheet.md
-        - YAML: yaml-cheatsheet.md
-        - Github Pages: github-pages.md
-        - Jinja 2 : jinja2-cheatsheet.md
+        - Markdown: cheatsheets/markdown-cheatsheet.md
+        - YAML: cheatsheets/yaml-cheatsheet.md
+        - Github Pages: cheatsheets/github-pages.md
+        - Jinja 2 : cheatsheets/jinja2-cheatsheet.md
 
-extra_css:
-    - css/extra.css
 
 markdown_extensions:
     - toc:
@@ -42,8 +44,8 @@ markdown_extensions:
         user: mkdocs
         repo: mkdocs
 
-copyright: Copyright &copy; 2014 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
-google_analytics: ['UA-27795084-5', 'mkdocs.org']
+copyright: Copyright &copy; 2019, DataisGood.
+# google_analytics: ['UA-27795084-5', 'mkdocs.org']
 
 plugins:
     - search

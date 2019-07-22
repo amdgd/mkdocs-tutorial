@@ -185,7 +185,7 @@ Upon finding a title for a page, MkDoc does not continue checking any additional
 
 YAML style meta-data consists of YAML key/value pairs wrapped in YAML style deliminators to mark the start and/or end of the meta-data. The first line of a document must be `---`. The meta-data ends at the first line containing an end deliminator (either `---` or `...`). The content between the deliminators is parsed as YAML
 
- [Yaml Cheatsheet](yaml-cheatsheet.md) 
+ [Yaml Cheatsheet](../cheatsheets/yaml-cheatsheet.md) 
 
 ```yaml
 ---
